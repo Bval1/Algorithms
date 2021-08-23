@@ -1,0 +1,61 @@
+Sorted Arrays:
+
+Search  (binary search)							 O(logN)
+Select (given order statistic i)				 O(1)
+Min/Max											 O(1)
+Predcessor/Successor (given pointer to a key)	 O(1)
+Rank (# of keys <= to a given value)			 O(logN)
+Output in sorted order							 O(N)
+Insert/Delete									 O(N)		
+
+
+---------------------------------------------------------------------------------------------------------
+
+Heaps:	
+Thought of as trees but implemented as dynamic arrays, finds min or max easily but does not support as many features as BST
+
+Min/Max (can only keep track of 1)				 O(logN)	(smaller constant factors in space and time than BST)
+Insert/Delete									 O(logN)	(smaller constant factor in space and time than BST)
+
+------------------------------------------------------------------------------------------------------
+
+Balanced Binary Search Trees: 
+Like sorted array but dynamic with fast (logaritmic) inserts and deletes, searches more easily than heap
+
+Search 											 O(logN)		 O(height) for general case
+Select (given order statistic i)				 O(logN)		 O(height) for general case
+Min/Max											 O(logN)		 O(height) for general case
+Predcessor/Successor (given pointer to a key)	 O(logN)		 O(height) for general case
+Rank (# of keys <= to a given value)			 O(logN)		 O(height) for general case
+Output in sorted order							 O(logN)		 O(height) for general case
+Insert/Delete									 O(logN)		 O(height) for general case
+
+Examples of blanced search trees: red-black, AVL, splay trees, B trees
+Red-Black invariants:
+1. Each node red or black
+2. Root is black
+3. No 2 reds in a row (red node-> only black children)
+4. Every root-NULL path (like an unsuccessful search) has same number of black nodes
+
+------------------------------------------------------------------------------------------------------
+
+Hash Table: 
+Really good at insertions/deletions, repeated look ups/searches using a "key".  Maintains a possibly evolving
+set of stuff (transactions, people+associated data, IP address, etc.).  Does not maintain an ordering, if you want to find min
+or max you would want to use a heap or serach tree.
+
+Insert: add new record						O(1)
+Delete: delete exisiting record				O(1)
+Lookup: check for a particular record		O(1)
+
+
+------------------------------------------------------------------------------------------------------
+
+Bloom Filters:
+Raison d'etre: Fast inserts and lookups
+Pros: More space efficient than hash tables
+Cons: Can't store an associated object (also known as hash set), No deletions, 
+	  Small false positive probability (might say x has been inserted even though it hasn't been)
+
+
+
