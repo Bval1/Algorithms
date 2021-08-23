@@ -157,7 +157,7 @@
     <ClCompile Include="src\GraphSearchcpp.cpp" />
     <ClCompile Include="src\HashTable.cpp" />
     <ClCompile Include="src\Heap.cpp" />
-    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Sandbox.cpp" />
     <ClCompile Include="src\pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
