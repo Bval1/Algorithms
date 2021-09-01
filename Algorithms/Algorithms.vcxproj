@@ -154,16 +154,19 @@
     <ClCompile Include="src\BloomFilters.cpp" />
     <ClCompile Include="src\BST.cpp" />
     <ClCompile Include="src\ClosestPair.cpp" />
-    <ClCompile Include="src\GraphSearchcpp.cpp" />
+    <ClCompile Include="src\GraphSearch_Sandbox.cpp" />
     <ClCompile Include="src\HashTable.cpp" />
     <ClCompile Include="src\Heap.cpp" />
-    <ClCompile Include="src\Sandbox.cpp" />
+    <ClCompile Include="src\MST_Sandbox.cpp" />
+    <ClCompile Include="src\Sort_Sandbox.cpp" />
     <ClCompile Include="src\pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\GraphSearch.h" />
+    <ClInclude Include="src\MST.h" />
     <ClInclude Include="src\pch.h" />
     <ClInclude Include="src\Sort.h" />
     <ClInclude Include="src\Select.h" />

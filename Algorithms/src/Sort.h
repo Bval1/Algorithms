@@ -6,7 +6,7 @@ size_t Partition(T arr[], size_t left, size_t right)
 	size_t pivot = left + (rand() % (right - left));
 
 	const T p = arr[pivot];		// pivot value
-	size_t i = left + 1;			// start pivot index at 2nd element
+	size_t i = left + 1;			// start pivot marker at 2nd element
 	size_t temp;
 
 	temp = arr[pivot];

@@ -42,7 +42,7 @@ Red-Black invariants:
 Hash Table: 
 Really good at insertions/deletions, repeated look ups/searches using a "key".  Maintains a possibly evolving
 set of stuff (transactions, people+associated data, IP address, etc.).  Does not maintain an ordering, if you want to find min
-or max you would want to use a heap or serach tree.
+or max you would want to use a heap or search tree.
 
 Insert: add new record						O(1)
 Delete: delete exisiting record				O(1)
