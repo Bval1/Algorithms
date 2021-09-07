@@ -1,7 +1,9 @@
 #include "pch.h"
 #include "MST.h"
+// Solving Minimum Spanning Tree using Greedy Algorithms (Prim and Kruskal Alogrithms, 
+// both O(Mlog(N)) time, where M is # of edges, N is # of vertices
 
-
+#if 1
 Graph Union(const Graph& c1, const Graph& c2)
 {
 	std::vector<Edge> res;
@@ -29,10 +31,7 @@ void Graph::Erase(const Edge& edge)
 			return;
 		}
 		else
-		{
 			i++;
-		}
-
 	}
 }
 
@@ -178,6 +177,19 @@ std::srand(time(NULL));
 	}
 
 #elif EXAMPLE == 2
+
+	/*	   A
+	*	 /	 \
+	*	1     7
+	*  /	   \
+	* E----5----B
+	* |	\		|
+	* |	 \		|
+	* 4	   3	2
+	* |		\	|
+	* |		  \ |
+	* D----5----C
+	*/
 	
 	Node a = { "A" }, b = { "B" }, c = { "C" }, d = { "D" }, e = { "E" };
 	Edge ab = { &a, &b, 7 }, bc = { &b, &c, 6 }, cd = { &c, &d, 2 }, de = { &d, &e, 4 }, ea = { &e, &a, 1 },
@@ -192,18 +204,9 @@ std::srand(time(NULL));
 	Graph g = { edges, 5 };
 	Graph result = g.KruskalMST();
 	result.Print();
-#if 0
-	for (int i = 0; i < 50; i++) 
-	{
-		Graph g = { edges };
-		Graph result = g.PrimMST();
-		result.Print();
-		printf("\n");
-	}
-#endif
-	
 
 #endif
 
 
 }
+#endif

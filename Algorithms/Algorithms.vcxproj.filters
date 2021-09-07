@@ -39,7 +39,13 @@
     <ClCompile Include="src\pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\MST_Sandbox.cpp">
+    <ClCompile Include="src\MST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Clustering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HuffmanCodes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
