@@ -26,7 +26,7 @@ int main()
 {
 	std::srand(time(NULL));
 
-#define EXAMPLE 3
+#define EXAMPLE 4
 
 #if EXAMPLE == 1
 	const int size = 12;
@@ -52,7 +52,7 @@ int main()
 #endif
 
 
-#define TEST 1
+#define TEST 2
 
 #if TEST == 1					// MergeSort
 	Timer* timer = new Timer;

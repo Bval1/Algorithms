@@ -1,9 +1,10 @@
 #include "pch.h"
 #include "MST.h"
+
 // Solving Minimum Spanning Tree using Greedy Algorithms (Prim and Kruskal Alogrithms, 
 // both O(Mlog(N)) time, where M is # of edges, N is # of vertices
 
-#if 1
+#if 0
 Graph Union(const Graph& c1, const Graph& c2)
 {
 	std::vector<Edge> res;

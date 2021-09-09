@@ -15,59 +15,68 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Sort_Sandbox.cpp">
+    <ClCompile Include="src\Sort and Select\Sort_Sandbox.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\ClosestPair.cpp">
+    <ClCompile Include="src\Sort and Select\ClosestPair.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\GraphSearch_Sandbox.cpp">
+    <ClCompile Include="src\Graph Search\GraphSearch_Sandbox.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Heap.cpp">
+    <ClCompile Include="src\Data Structures\Heap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\BST.cpp">
+    <ClCompile Include="src\Data Structures\BST.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\HashTable.cpp">
+    <ClCompile Include="src\Data Structures\HashTable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\BloomFilters.cpp">
+    <ClCompile Include="src\Data Structures\BloomFilters.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\MST.cpp">
+    <ClCompile Include="src\Greedy Algorithms\MST.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Clustering.cpp">
+    <ClCompile Include="src\Greedy Algorithms\Clustering.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\HuffmanCodes.cpp">
+    <ClCompile Include="src\Greedy Algorithms\HuffmanCodes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Dynamic Programming\WIS_in_Path_Graphs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Dynamic Programming\Knapsack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Dynamic Programming\Sequence_Alignment.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Sort.h">
+    <ClInclude Include="src\Sort and Select\Sort.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Select.h">
+    <ClInclude Include="src\Sort and Select\Select.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\GraphSearch.h">
+    <ClInclude Include="src\Graph Search\GraphSearch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\MST.h">
+    <ClInclude Include="src\Greedy Algorithms\MST.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="src\Notes.txt">
+    <Text Include="src\Data Structures\Notes.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>

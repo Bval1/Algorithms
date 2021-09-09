@@ -97,6 +97,7 @@
       <LanguageStandard>stdcpp17</LanguageStandard>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)\src</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -114,6 +115,7 @@
       <LanguageStandard>stdcpp17</LanguageStandard>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)\src</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -151,30 +153,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\BloomFilters.cpp" />
-    <ClCompile Include="src\BST.cpp" />
-    <ClCompile Include="src\ClosestPair.cpp" />
-    <ClCompile Include="src\Clustering.cpp" />
-    <ClCompile Include="src\GraphSearch_Sandbox.cpp" />
-    <ClCompile Include="src\HashTable.cpp" />
-    <ClCompile Include="src\Heap.cpp" />
-    <ClCompile Include="src\HuffmanCodes.cpp" />
-    <ClCompile Include="src\MST.cpp" />
-    <ClCompile Include="src\Sort_Sandbox.cpp" />
+    <ClCompile Include="src\Data Structures\BloomFilters.cpp" />
+    <ClCompile Include="src\Data Structures\BST.cpp" />
+    <ClCompile Include="src\Sort and Select\ClosestPair.cpp" />
+    <ClCompile Include="src\Greedy Algorithms\Clustering.cpp" />
+    <ClCompile Include="src\Graph Search\GraphSearch_Sandbox.cpp" />
+    <ClCompile Include="src\Data Structures\HashTable.cpp" />
+    <ClCompile Include="src\Data Structures\Heap.cpp" />
+    <ClCompile Include="src\Greedy Algorithms\HuffmanCodes.cpp" />
+    <ClCompile Include="src\Dynamic Programming\Knapsack.cpp" />
+    <ClCompile Include="src\Greedy Algorithms\MST.cpp" />
+    <ClCompile Include="src\Dynamic Programming\Sequence_Alignment.cpp" />
+    <ClCompile Include="src\Sort and Select\Sort_Sandbox.cpp" />
     <ClCompile Include="src\pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="src\Dynamic Programming\WIS_in_Path_Graphs.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\GraphSearch.h" />
-    <ClInclude Include="src\MST.h" />
+    <ClInclude Include="src\Graph Search\GraphSearch.h" />
+    <ClInclude Include="src\Greedy Algorithms\MST.h" />
     <ClInclude Include="src\pch.h" />
-    <ClInclude Include="src\Sort.h" />
-    <ClInclude Include="src\Select.h" />
+    <ClInclude Include="src\Sort and Select\Sort.h" />
+    <ClInclude Include="src\Sort and Select\Select.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="src\Notes.txt" />
+    <Text Include="src\Data Structures\Notes.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

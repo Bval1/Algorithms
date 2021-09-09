@@ -229,7 +229,6 @@ void Djikstra(Graph<T>& g, Node<T>* source, Node<T>* end)
 			std::cout << e->v->data << "->" << e->w->data << ", distance: " << e->length <<
 				" | total distance: " << curr_dist << "\n";
 		}
-
 	}
 
 	// final score overall is stored by the final vertex key
