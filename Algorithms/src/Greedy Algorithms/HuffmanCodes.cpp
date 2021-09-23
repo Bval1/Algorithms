@@ -83,7 +83,7 @@ Node* Huffman(std::vector<Node*> arr, int len)
 	auto cmp = [](Node* a, Node* b) { return a->weight > b->weight; };
 	std::priority_queue<Node*, std::vector<Node*>, decltype(cmp)> q(cmp);
 	for (Node* n : arr)
-		q.push(n);
+		c
 
 	while (q.size() > 1)
 	{

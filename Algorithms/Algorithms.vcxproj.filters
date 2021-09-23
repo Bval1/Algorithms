@@ -57,6 +57,15 @@
     <ClCompile Include="src\Dynamic Programming\Sequence_Alignment.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Dynamic Programming\Bellman-Ford.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Dynamic Programming\All-Pairs_Shortest_Paths.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Local Search\2Sat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Sort and Select\Sort.h">
@@ -72,6 +81,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\Greedy Algorithms\MST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Dynamic Programming\Bellman-Ford.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

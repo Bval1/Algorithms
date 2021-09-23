@@ -155,6 +155,9 @@
   <ItemGroup>
     <ClCompile Include="src\Data Structures\BloomFilters.cpp" />
     <ClCompile Include="src\Data Structures\BST.cpp" />
+    <ClCompile Include="src\Dynamic Programming\All-Pairs_Shortest_Paths.cpp" />
+    <ClCompile Include="src\Dynamic Programming\Bellman-Ford.cpp" />
+    <ClCompile Include="src\Local Search\2Sat.cpp" />
     <ClCompile Include="src\Sort and Select\ClosestPair.cpp" />
     <ClCompile Include="src\Greedy Algorithms\Clustering.cpp" />
     <ClCompile Include="src\Graph Search\GraphSearch_Sandbox.cpp" />
@@ -172,6 +175,7 @@
     <ClCompile Include="src\Dynamic Programming\WIS_in_Path_Graphs.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Dynamic Programming\Bellman-Ford.h" />
     <ClInclude Include="src\Graph Search\GraphSearch.h" />
     <ClInclude Include="src\Greedy Algorithms\MST.h" />
     <ClInclude Include="src\pch.h" />
